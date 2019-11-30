@@ -38,3 +38,29 @@ path 들어가서 mi~sql이랑  자바 관련괸 부분 삭제
 3.편집도구 (에디터)
 IDE 설치 / 설정 
  -> eclipse
+
+gpl 라이센스 - 무료
+
+자바 처음 만든곳 
+무료 라이센스 - open jdk 
+유료   "  - oracle jdk
+
+오픈 jdk 13.0.1 버전으로 받아야함
+
+설치 후 버전확인
+cmd 커맨드 창 실행
+
+java -version
+javac -version
+
+설치위치 경로 확인하기
+D:\JAVA_20191130\download\installed\jdk-13.0.1\bin
+
+2. 환경변수 설정 (모든데서 사용가능하게 하려고) -> 이거 안하면 해당 폴더에서 밖에 안보임
+시스템 설정에서 시스쳄 변수추가 + 수정
+1.JAVA_HOME => open jdk 폴더위치
+2.Path => open jdk의 bin 위치 (시스템변수 path에 들어가서 추가 %JAVA_HOME%\bin)
+%JAVA_HOME% -> 이미 설정해둔 %사이의내역% 불러오라는 뜻
+3.Classpath - openjdk의 lib 폴더위치
+.;%JAVA_HOME%\lib
+
